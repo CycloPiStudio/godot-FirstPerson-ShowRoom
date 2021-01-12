@@ -3,6 +3,8 @@
 
 FPS template for Godot to give starter content for a new or already existing project!
 
+Plantilla de FPS para Godot para dar contenido inicial para un proyecto nuevo o ya existente!
+
 #### Includes:
 - Example 3D Scene
   - FPS Counter
@@ -29,3 +31,19 @@ FPS template for Godot to give starter content for a new or already existing pro
 - [Using Physics Layers and Masks in Godot by GDQuest](https://www.youtube.com/watch?v=UZu8NwlkXcU)
 - [Open World Environment Lighting in Godot by Tokisan Games](https://www.youtube.com/watch?v=8kwnCxK8Vc8)
 - Thanks to the awesome Godot community for being helpful to anyone with problems, for making amazing tutorials, for writing the documentation and being supportive.
+
+# Colaboración de Cyclo π Studio / Cyclo π Studio collaboration.
+## Planificación de nuevo contenido / Planning new content:
+- Convertir plantilla FPS en plantilla de Show Room para mostrar contenido 3D / Convert FPS template to Show Room template to display 3D content
+  - Incluir escenas de entrada (título - presentación, salida del juego, etc) / Include entrance scenes (title - presentation, game exit, etc.)
+  - Mostrar los recursos 3D que Cyclo π Studio ha ido producciendo / Show the 3D resources that Cyclo π Studio has been producing.
+ 
+# Collaborators:
+
+Cyclo π Studio in Github https://cyclopistudio.github.io/
+
+Juan Blender https://sites.google.com/site/blender3dgear/
+
+greenfactory.es https://greenfactory.es/
+
+Cyclo π Studio
