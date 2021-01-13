@@ -2,7 +2,7 @@ extends Node2D
 # Esta pantalla la pongo al principio
 # ya que es para exportar html y puede tardar en cargar
 
-var preMain = preload("res://scenes/s_main/S_Main.tscn")
+var preMain = preload("res://scenes/showroom/rooms/room0/room0.tscn")
 var escenaMain 
 func _ready():
 	pass # Replace with function body.
