@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="FirstPersonStarter"
-run/main_scene="res://scenes/s_main/S_Main.tscn"
+run/main_scene="res://scenes/showroom/carga/Intro-carga.tscn"
 config/icon="res://icon.png"
 
 [importer_defaults]
@@ -1130,5 +1130,6 @@ mouse_input={
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 quality/filters/msaa=1
 environment/default_environment="res://scenes/s_main/default_env.tres"
