@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=34 format=2]
 
 [ext_resource path="res://scenes/s_main/default_env.tres" type="Environment" id=1]
 [ext_resource path="res://entities/player/Player.tscn" type="PackedScene" id=2]
@@ -14,6 +14,14 @@
 [ext_resource path="res://scenes/showroom/atrezo/modelos/proton.tscn" type="PackedScene" id=12]
 [ext_resource path="res://scenes/showroom/atrezo/modelos/electron.tscn" type="PackedScene" id=13]
 [ext_resource path="res://scenes/showroom/atrezo/modelos/avion.tscn" type="PackedScene" id=14]
+[ext_resource path="res://scenes/showroom/rooms/room0/Atrezo-Sprites2D/2Dcaramelo.tscn" type="PackedScene" id=15]
+[ext_resource path="res://scenes/showroom/rooms/room0/Atrezo-Sprites2D/calavera2.png" type="Texture" id=16]
+[ext_resource path="res://scenes/showroom/rooms/room0/Atrezo-Sprites2D/alga.png" type="Texture" id=17]
+[ext_resource path="res://scenes/showroom/rooms/room0/Atrezo-Sprites2D/astronauta.png" type="Texture" id=18]
+[ext_resource path="res://scenes/showroom/rooms/room0/Atrezo-Sprites2D/aladin_gordo_player-jump-2.png" type="Texture" id=19]
+[ext_resource path="res://scenes/showroom/rooms/room0/Atrezo-Sprites2D/bala_roja_32x32.png" type="Texture" id=20]
+[ext_resource path="res://scenes/showroom/rooms/room0/Atrezo-Sprites2D/arbol.png" type="Texture" id=21]
+[ext_resource path="res://scenes/showroom/rooms/room0/Atrezo-Sprites2D/afro.png" type="Texture" id=22]
 
 [sub_resource type="CubeMesh" id=1]
 size = Vector3( 1, 1, 1 )
@@ -26,6 +34,209 @@ size = Vector3( 1, 1, 1 )
 
 [sub_resource type="ConvexPolygonShape" id=4]
 points = PoolVector3Array( -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5 )
+
+[sub_resource type="Animation" id=5]
+resource_name = "rotar2D"
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.6, 3.4, 5.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ), Vector3( 0, 180, 0 ), Vector3( 0, 270, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 4.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 10, 10, 1 ), Vector3( 7, 7, 1 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "rotar2D"
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.6, 3.4, 5.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ), Vector3( 0, 180, 0 ), Vector3( 0, 270, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 4.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 10, 10, 1 ), Vector3( 7, 7, 1 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "rotar2D"
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.6, 3.4, 5.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ), Vector3( 0, 180, 0 ), Vector3( 0, 270, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 4.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 10, 10, 1 ), Vector3( 7, 7, 1 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "rotar2D"
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.6, 3.4, 5.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ), Vector3( 0, 180, 0 ), Vector3( 0, 270, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 4.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 10, 10, 1 ), Vector3( 7, 7, 1 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "rotar2D"
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.6, 3.4, 5.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ), Vector3( 0, 180, 0 ), Vector3( 0, 270, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 4.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 10, 10, 1 ), Vector3( 7, 7, 1 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "rotar2D"
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.6, 3.4, 5.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ), Vector3( 0, 180, 0 ), Vector3( 0, 270, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 4.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 10, 10, 1 ), Vector3( 7, 7, 1 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "rotar2D"
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.6, 3.4, 5.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ), Vector3( 0, 180, 0 ), Vector3( 0, 270, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 4.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 10, 10, 1 ), Vector3( 7, 7, 1 ) ]
+}
 
 [node name="Room0" type="Spatial"]
 script = ExtResource( 5 )
@@ -137,3 +348,92 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.04595, 0.420321, -10.1758 )
 
 [node name="moto" parent="Modelos" instance=ExtResource( 9 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.05884 )
+
+[node name="Sprites2D" type="Spatial" parent="."]
+
+[node name="2D" parent="Sprites2D" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 6.51683e-07, 0, 1, 0, -6.51683e-07, 0, 1, 1.62224, 6.30137, -22.5422 )
+
+[node name="2D2" parent="Sprites2D" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 6.51683e-07, 0, 1, 0, -6.51683e-07, 0, 1, 8.37128, 8.7994, -22.5422 )
+
+[node name="Sprite3D" parent="Sprites2D/2D2" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.53167, 0 )
+texture = ExtResource( 16 )
+
+[node name="AnimationPlayer" parent="Sprites2D/2D2" index="1"]
+anims/rotar2D = SubResource( 5 )
+
+[node name="2D3" parent="Sprites2D" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 6.51683e-07, 0, 1, 0, -6.51683e-07, 0, 1, 13.4924, 8.68232, -22.5422 )
+
+[node name="Sprite3D" parent="Sprites2D/2D3" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.53167, 0 )
+texture = ExtResource( 17 )
+
+[node name="AnimationPlayer" parent="Sprites2D/2D3" index="1"]
+anims/rotar2D = SubResource( 6 )
+
+[node name="2D6" parent="Sprites2D" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 6.51683e-07, 0, 1, 0, -6.51683e-07, 0, 1, 23.192, 8.68232, -15.9542 )
+
+[node name="Sprite3D" parent="Sprites2D/2D6" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.53167, 0 )
+texture = ExtResource( 21 )
+
+[node name="AnimationPlayer" parent="Sprites2D/2D6" index="1"]
+anims/rotar2D = SubResource( 8 )
+
+[node name="2D7" parent="Sprites2D" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 6.51683e-07, 0, 1, 0, -6.51683e-07, 0, 1, 22.9684, 7.64202, -10.6431 )
+
+[node name="Sprite3D" parent="Sprites2D/2D7" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.53167, 0 )
+texture = ExtResource( 19 )
+
+[node name="AnimationPlayer" parent="Sprites2D/2D7" index="1"]
+anims/rotar2D = SubResource( 10 )
+
+[node name="2D8" parent="Sprites2D" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 6.51683e-07, 0, 1, 0, -6.51683e-07, 0, 1, 22.9684, 9.16862, -1.72294 )
+
+[node name="Sprite3D" parent="Sprites2D/2D8" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.53167, 0 )
+texture = ExtResource( 22 )
+
+[node name="AnimationPlayer" parent="Sprites2D/2D8" index="1"]
+anims/rotar2D = SubResource( 11 )
+
+[node name="2D5" parent="Sprites2D" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 6.51683e-07, 0, 1, 0, -6.51683e-07, 0, 1, 21.9815, 8.68232, -19.5565 )
+
+[node name="Sprite3D" parent="Sprites2D/2D5" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.53167, 0 )
+texture = ExtResource( 20 )
+
+[node name="AnimationPlayer" parent="Sprites2D/2D5" index="1"]
+anims/rotar2D = SubResource( 9 )
+
+[node name="2D4" parent="Sprites2D" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 6.51683e-07, 0, 1, 0, -6.51683e-07, 0, 1, 19.2223, 8.68232, -22.5422 )
+
+[node name="Sprite3D" parent="Sprites2D/2D4" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.53167, 0 )
+texture = ExtResource( 18 )
+
+[node name="AnimationPlayer" parent="Sprites2D/2D4" index="1"]
+anims/rotar2D = SubResource( 7 )
+
+[editable path="Sprites2D/2D2"]
+
+[editable path="Sprites2D/2D3"]
+
+[editable path="Sprites2D/2D6"]
+
+[editable path="Sprites2D/2D7"]
+
+[editable path="Sprites2D/2D8"]
+
+[editable path="Sprites2D/2D5"]
+
+[editable path="Sprites2D/2D4"]
