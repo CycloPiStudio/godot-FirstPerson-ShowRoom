@@ -1,6 +1,10 @@
 # Show Room 
 ### Modelos:
 
+Avión
+
+https://github.com/CycloPiStudio/Cactus/blob/aaa329cffef319dc9be30bf727dff30adfa33dc9/Cactus/Ejecutable/Juego/Escenarios/Niveles/modelos/avion/avion.blend 
+
 E electrón (aunque ponga cactus) dae collada
 
 https://github.com/CycloPiStudio/Cactus/blob/d4adc90852af4d89ab85d9f3ae20b5c2b8a8b4c6/Cactus/Ejecutable/Juego/Escenarios/Niveles/modelos/cactus/cactus.dae
