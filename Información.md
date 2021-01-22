@@ -1,8 +1,15 @@
 # Show Room 
 ### Modelos:
 
+Jirafa
+
+https://github.com/CycloPiStudio/Cactus/blob/80732e427b59c1ed683252ec6a8c790c953820fc/Cactus/Ejecutable/Juego/Escenarios/Niveles/modelos/girafa/GIRAFA.blend
+
+Cactus
+
 https://github.com/CycloPiStudio/Cactus/blob/80732e427b59c1ed683252ec6a8c790c953820fc/Cactus/Ejecutable/Juego/Escenarios/Niveles/modelos/cactus/cactus.blend
 
+Moto-elfo
 https://github.com/CycloPiStudio/Cactus/blob/0aac4d3d8e8c18a68ede1ecc275d9815493aa56b/Cactus/Ejecutable/Juego/Escenarios/Niveles/modelos/moto/motoelfo.blend
 
 
