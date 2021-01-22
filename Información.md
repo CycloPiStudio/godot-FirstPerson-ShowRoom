@@ -1,6 +1,10 @@
 # Show Room 
 ### Modelos:
 
+E electrón (aunque ponga cactus) dae collada
+
+https://github.com/CycloPiStudio/Cactus/blob/d4adc90852af4d89ab85d9f3ae20b5c2b8a8b4c6/Cactus/Ejecutable/Juego/Escenarios/Niveles/modelos/cactus/cactus.dae
+
 Jirafa
 
 https://github.com/CycloPiStudio/Cactus/blob/80732e427b59c1ed683252ec6a8c790c953820fc/Cactus/Ejecutable/Juego/Escenarios/Niveles/modelos/girafa/GIRAFA.blend
