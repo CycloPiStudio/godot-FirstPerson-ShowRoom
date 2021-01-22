@@ -25,11 +25,14 @@ https://github.com/CycloPiStudio/Cactus/blob/0aac4d3d8e8c18a68ede1ecc275d9815493
 #### Planificación de nuevo contenido / Planning new content:
 - Convertir plantilla FPS en plantilla de Show Room para mostrar contenido 3D / Convert FPS template to Show Room template to display 3D content
   - Incluir más modelos 3d de otros juegos
-  - Incluir pixel-art 2D
-  - Preparar exportación
-    - Incluir pixel-art 2D en rojo?
+    - Basic 3D:
+    https://github.com/CycloPiStudio/3D-Basic 
     - Incluir pixel-art 2D en rojo?2
+    https://github.com/CycloPi/Crazy_Tron_Car
+    
+  - Incluir pixel-art 2D
   - Incluir modo movil
+  - Preparar exportación
  
   
 #### Consecuiones / Achievements:
