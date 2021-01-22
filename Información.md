@@ -24,6 +24,16 @@ https://github.com/CycloPiStudio/Cactus/blob/0aac4d3d8e8c18a68ede1ecc275d9815493
 ### Colaboración de Cyclo π Studio / Cyclo π Studio collaboration.
 #### Planificación de nuevo contenido / Planning new content:
 - Convertir plantilla FPS en plantilla de Show Room para mostrar contenido 3D / Convert FPS template to Show Room template to display 3D content
+  - Incluir más modelos 3d de otros juegos
+  - Incluir pixel-art 2D
+  - Preparar exportación
+    - Incluir pixel-art 2D en rojo?
+    - Incluir pixel-art 2D en rojo?2
+  - Incluir modo movil
+ 
+  
+#### Consecuiones / Achievements:
+- Convertir plantilla FPS en plantilla de Show Room para mostrar contenido 3D / Convert FPS template to Show Room template to display 3D content
   - Incluir escenas de entrada (título - presentación, salida del juego, etc) / Include entrance scenes (title - presentation, game exit, etc.)
   - Mostrar los recursos 3D que Cyclo π Studio ha ido producciendo / Show the 3D resources that Cyclo π Studio has been producing.
  
