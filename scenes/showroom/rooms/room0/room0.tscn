@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://scenes/s_main/default_env.tres" type="Environment" id=1]
 [ext_resource path="res://entities/player/Player.tscn" type="PackedScene" id=2]
@@ -10,6 +10,9 @@
 [ext_resource path="res://scenes/showroom/rooms/room0/fondo-nodo.tscn" type="PackedScene" id=8]
 [ext_resource path="res://scenes/showroom/atrezo/modelos/moto.tscn" type="PackedScene" id=9]
 [ext_resource path="res://scenes/showroom/atrezo/modelos/cactus.tscn" type="PackedScene" id=10]
+[ext_resource path="res://scenes/showroom/atrezo/modelos/proton.tscn" type="PackedScene" id=11]
+[ext_resource path="res://scenes/showroom/atrezo/modelos/electron.tscn" type="PackedScene" id=12]
+[ext_resource path="res://scenes/showroom/atrezo/modelos/jirafa.tscn" type="PackedScene" id=13]
 
 [sub_resource type="CubeMesh" id=1]
 size = Vector3( 1, 1, 1 )
@@ -121,3 +124,12 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.04595, 0.420321, -10.1758 )
 
 [node name="moto" parent="Modelos" instance=ExtResource( 9 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.05884 )
+
+[node name="electron" parent="Modelos" instance=ExtResource( 12 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.0962, 0.1978, -10.0246 )
+
+[node name="jirafa" parent="Modelos" instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.83785, 0.589993, -9.73284 )
+
+[node name="proton" parent="Modelos" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.1449, 0.473745, -10.4487 )
