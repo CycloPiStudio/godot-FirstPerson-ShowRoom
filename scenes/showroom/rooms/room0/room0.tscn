@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://scenes/s_main/default_env.tres" type="Environment" id=1]
 [ext_resource path="res://entities/player/Player.tscn" type="PackedScene" id=2]
@@ -8,6 +8,8 @@
 [ext_resource path="res://scenes/s_main/materials/dark.material" type="Material" id=6]
 [ext_resource path="res://scenes/s_main/materials/blue.material" type="Material" id=7]
 [ext_resource path="res://scenes/showroom/rooms/room0/fondo-nodo.tscn" type="PackedScene" id=8]
+[ext_resource path="res://scenes/showroom/atrezo/modelos/moto.tscn" type="PackedScene" id=9]
+[ext_resource path="res://scenes/showroom/atrezo/modelos/cactus.tscn" type="PackedScene" id=10]
 
 [sub_resource type="CubeMesh" id=1]
 size = Vector3( 1, 1, 1 )
@@ -113,3 +115,9 @@ transform = Transform( -4.37114e-08, 0, 7, 0, 1.51, 0, -1, 0, -3.0598e-07, 13.25
 [node name="FPS_Counter" parent="." instance=ExtResource( 4 )]
 
 [node name="Modelos" type="Spatial" parent="."]
+
+[node name="cactus" parent="Modelos" instance=ExtResource( 10 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.04595, 0.420321, -10.1758 )
+
+[node name="moto" parent="Modelos" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.05884 )
